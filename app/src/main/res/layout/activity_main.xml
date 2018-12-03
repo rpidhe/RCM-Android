@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.kevin.opencv_takephoto.Tutorial3View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/tutorial3_activity_java_surface_view" />
+    <Button
+        android:id="@+id/light_enhance_bt"
+        android:layout_width="120dp"
+        android:text="Enhance Light"
+        android:layout_height= "40dp"
+        android:layout_gravity="bottom"
+        />
+</FrameLayout>
